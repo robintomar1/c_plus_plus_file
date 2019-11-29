@@ -12,7 +12,7 @@ class Rational
 	void put() const
 	{
 		cout<<"Sum:";
-		cout<<n<<"/"<<d;
+		cout<<n<<"/"<<d<<"\n";
 	}
 	friend Rational operator+(Rational ,Rational);
 };

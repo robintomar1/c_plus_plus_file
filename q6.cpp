@@ -32,7 +32,7 @@ class Bike:public Vehicles
 	 int nogrs;
 	 string cooltype;
 	 string wheeltype;
-	 int fluesize;
+	 int fuelsize;
 	public:
 	 void setb(int cy,int gr,string ctype,string wheel,int fuel)
 	 {

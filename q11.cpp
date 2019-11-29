@@ -18,13 +18,13 @@ class Integer
 	}
 	void show()
 	{
-		cout<<"i = "<<i<<endl;
+		cout<<"i_val = "<<i<<endl;
 	}
 };
 int main()
 {
 	Integer i1;
-	Integer i2(10);
+	Integer i2(1111);
 	char ch[10];
 	cout<<"Enter the no: ";
 	fgets(ch,9,stdin);

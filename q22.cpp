@@ -32,5 +32,6 @@ int main()
 	cout<<"Array after sort is: ";
 	for(i=0;i<n;i++)
 		cout<<arr[i]<<" ";
+	cout<<"\n";
 }
 

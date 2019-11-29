@@ -15,7 +15,7 @@ int main()
 	cin>>num;
 	next = num;
 	prev = find (next);
-	cout<<num<< "Previous power is "<<prev<<" and next power is "<<next<<endl;
+	cout<<num<< "  Previous power is "<<prev<<" and next power is "<<next<<endl;
 	return 0;
 }
 

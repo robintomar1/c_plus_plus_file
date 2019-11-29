@@ -24,7 +24,7 @@ int Employee::greater(Employee e)
 int main()
 {
 	Employee e1(1,"yash",50000.0f);
-	Employee e2(2,"Abhishek",60000.0f);
+	Employee e2(2,"Abhishek",61000.0f);
 	if(1==e1.greater(e2))
 		cout<<"Employee 1 has greater salary"<<endl;
 	else if(2 == e1.greater(e2))

@@ -46,7 +46,7 @@ int main()
 	cout<<"Enter the Float Array elements(sorted): ";
 	for(i=0;i<n;i++)
 	{
-		cin>>arr[i];
+		cin>>arri[i];
 	}
 	cout<<"Enter the Element want to search : ";
 	cin>>numf;

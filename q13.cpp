@@ -14,10 +14,11 @@ class Matrix
 	{
 		for(int i=0;i<3;i++)
 		{
-			cout<<endl;
+			cout<<endl<<"\v";
 			for(int j=0;j<3;j++)
-				cout<<arr[i][j]<<" ";
+				cout<<arr[i][j]<<"\t";
 		}
+		cout<<endl;
 	}
 	Matrix operator*(Matrix m)
 	{

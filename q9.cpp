@@ -25,9 +25,9 @@ class Matrix
 		cout<<"\nMatrix is:\n";
 		for(int i=0;i<n;i++)
 		{
-			cout<<endl;
+			cout<<endl<<"\v";
 			for(int j=0;j<m;j++)
-				cout<<p[i][j];
+				cout<<p[i][j]<<"\t";
 		}
 	}
 };

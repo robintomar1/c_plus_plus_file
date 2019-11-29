@@ -36,8 +36,8 @@ int main()
 {
 	Number1 n1;
 	Number1 n2;
-	n1.setnum(3);
-	n2.setnum(5);
+	n1.setnum(10);
+	n2.setnum(20);
 	cout<<"before swap\n";
 	cout<<"N1: "<<n1.getnum();
 	cout<<"\nN2: "<<n2.getnum();
